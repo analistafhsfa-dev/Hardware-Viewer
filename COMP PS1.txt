@@ -1,0 +1,12 @@
+cd pasta
+
+Invoke-PS2EXE `
+    -InputFile ".\CFGEquipamento 2.2.ps1" `
+    -OutputFile ".\HardwareViewer.exe" `
+    -NoConsole `
+    -IconFile ".\pc.ico" `
+    -Title "HardwareViewer" `
+    -Description "Monitor de Hardware" `
+    -Product "HardwareViewer" `
+    -Company "Guilherme - Analista Infra" `
+    -Version "2.2"
